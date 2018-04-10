@@ -13,9 +13,14 @@
         h.parentNode.insertBefore(s,h);
     })(window,document);
 </script>
+<script>
+    function myFunction() {
+        document.getElementById("msg").style.color = "red";
+    }
+</script>
 </head>
 <body>
-    <h1>Welcome - sakshi.nagpal+free1@wingify.com</h1>
-    <button type="button" id="goal">Trigger Goal</button>
+    <h1 id="msg">Welcome - sakshi.nagpal+free1@wingify.com</h1>
+    <button type="button" id="goal" onclick="myFunction()">Trigger Goal</button>
 </body>
 </html>
